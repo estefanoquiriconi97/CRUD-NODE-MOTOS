@@ -21,14 +21,16 @@ app.use(express.urlencoded({ extended: false }));
 app.use(methodOverride('_method'));
 
 //Requerir las rutas
-const webRoutes = require('./routes/web');
-const userRoutes = require('./routes/user');
-const productoRoutes = require('./routes/producto');
-const adminRoutes = require('./routes/admin');
+const webRoutes = require('./routes/web.routes');
+const userRoutes = require('./routes/user.routes');
+const productoRoutes = require('./routes/producto.routes');
+const adminRoutes = require('./routes/admin.routes');
+
 //Para usar las rutas
 app.use(webRoutes);
 app.use(productoRoutes);
 app.use(userRoutes);
 app.use(adminRoutes);
+ 
 //Levantar servidor
 app.listen(3001, 'localhost', ()=> console.log('http://localhost:3001'));
