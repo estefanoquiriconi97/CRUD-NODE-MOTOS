@@ -12,7 +12,9 @@ router.post('/administrar/create',upload.single('imagen'), controllersAdmin.stor
 
 router.get('/administrar/detail/:id', controllersAdmin.detail);
 
-router.get('/administrar/update', controllersAdmin.update);
+router.get('/administrar/edit/:id', controllersAdmin.edit);
+router.put('/administrar/edit/:id', upload.single('imagen'), controllersAdmin.update);
 
+router.get('/administrar/delete/:id', controllersAdmin.destroy);
 
 module.exports  = router;

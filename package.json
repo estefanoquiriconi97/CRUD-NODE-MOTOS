@@ -4,7 +4,8 @@
   "description": "Proyecto de trabajo con ejs",
   "main": "src/index.js",
   "scripts": {
-    "test": "nodemon src/index.js"
+    "test": "nodemon src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "Angel Daniel Fuentes",

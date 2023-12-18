@@ -1,17 +1,19 @@
 [
-  {
-    "id": "76f1edd7-9668-4c7b-afe2-aa6c6702df35",
-    "nombre": "Moto honda c125c",
-    "descripcion": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "precio": "150.000",
-    "descuento": "30",
-    "imagen": "color-rojo-wave.jpg"
-  },
-  {
-    "id": "76f1edd7-9668-4c7b-afe2-aa6c6702df36",
-    "nombre": "Mila",
-    "descripcion": "Descripción",
-    "precio": "4564121",
-    "descuento": "15"
-  }
+ {
+  "id": "76f1edd7-9668-4c7b-afe2-aa6c6702df35",
+  "nombre": "Moto honda c125c",
+  "descripcion": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+  "precio": "150.000",
+  "descuento": "30",
+  "imagen": "color-rojo-wave.jpg"
+ },
+ {
+  "nombre": "Estéfano",
+  "descripcion": "Descripción",
+  "precio": "5000",
+  "descuento": "0",
+  "oldImagen": "",
+  "id": "4aa8d29c-a1a8-4ea7-8fe1-a44a43c9a28a",
+  "imagen": "moto-1702909709616.jpg"
+ }
 ]
